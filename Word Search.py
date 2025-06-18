@@ -5,8 +5,8 @@ class Solution:
 
         self.exist = False
         direction = [[1,0],[0,1],[-1,0],[0,-1]]
-        self.count = 0
         visited = set()
+        
         def dfs(i,j,count) :
             if self.exist :
                 return
